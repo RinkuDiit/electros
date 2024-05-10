@@ -1,11 +1,11 @@
 import React from 'react'
 
-function web() {
+function Main() {
   return (
     <div>
-        <h1>Group project</h1>
+        <h1>group web</h1>
     </div>
   )
 }
 
-export default web
+export default Main
