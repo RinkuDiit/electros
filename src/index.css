@@ -1,4 +1,33 @@
-.page1{
-  height: 100px;
+.row1{
+  height: 130px;
   border: solid 1px ;
+  padding: 10px;
+
+}
+
+.item{
+  
+  border: solid 1px; 
+  padding: 30px;
+ 
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+.itme_img{
+  width:100%;
+  height: 100%;
+}
+.bottum_line{
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+.Cardbtn{
+  width: 76%;
+  height: 58px;
+  font-size: 25px !important;
+  color: white !important;
 }
