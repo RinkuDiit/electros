@@ -8,6 +8,8 @@ import Shiping from './components/Shiping';
 
 // import Product from './components/Product'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
