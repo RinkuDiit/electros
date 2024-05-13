@@ -1,14 +1,20 @@
 .row1{
   height: 130px;
-  border: solid 1px ;
+  /* border: solid 1px ; */
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
+}
+.P_productpage{
+  font-weight: 400 !important;
+  font-size: 19px !important;
 }
 
 .item{
   
-  border: solid 1px; 
-  padding: 30px;
+  /* border: solid 1px;  */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
  
 }
 
@@ -30,4 +36,15 @@
   height: 58px;
   font-size: 25px !important;
   color: white !important;
+}
+.icone_fa{
+  margin: 15px;
+}
+
+.list-group{
+  margin: 10px;
+}
+
+.fa-star{
+  float: left;
 }
