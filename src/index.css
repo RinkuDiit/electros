@@ -11,35 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.spngsecurepayment{
-  width: 100%;
-  height: 120px;
-  background-color: aqua;
-}
-.fastshping{
-  width: 25%;
-  height: 100%;
-  background-color: brown;
-  float: left;
-}
-.fastsupport{
-  width: 25%;
-  height: 100%;
-  background-color: rgb(32, 23, 23);
-  float: left;
-}
-.return30days{
-  width: 25%;
-  height: 100%;
-  background-color: rgb(42, 165, 165);
-  float: left;
-}
-.securepayment{
-  width: 25%;
-  height: 100%;
-  background-color: brown;
-  float: left;
-}
 
 
 .page1{

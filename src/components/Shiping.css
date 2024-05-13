@@ -1,0 +1,76 @@
+/* ...................shiping ........................ */
+  
+.spngsecurepayment{
+    /* height: 176px; */
+    /* background-color: aqua; */
+    padding-top: 15px;
+    }
+    .fastshping{
+      height: 100%;
+      /* background-color: brown; */
+      float: left;
+      
+    }
+    .iconshipbox{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #fdb85b;
+      float: left;
+      margin: -5px -1px;
+    }
+    .iconshipboxandh6{
+      width: 100%;
+      height: 50%;
+    }
+    .iconsshipreturnboxesdata p{
+      margin: 37px 7px;
+    }
+    .iconsshipreturnboxesdata h5{
+      margin: 15px 59px;
+      width: 192px;
+    }
+    .iconshipboxicon{
+      margin: 10px 10px;
+      color: white;
+    }
+   
+
+  .buds3cardsboxew{
+    /* background-color: aquamarine; */
+    height: 500px;
+    margin-top: 40px !important;
+    text-align: center;
+  }
+  .buds3cardsboxew img{
+    width: 100%;
+    height: 70%  !important;
+  }
+  .buds3cardsboxew h3{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 33px;
+  }
+  .buds3cardsboxew button{
+    width: 132px;
+    height: 41px;
+    border-radius: 27px;
+    margin-top: 10px;
+  }
+   .buds3cards h2{
+    font-weight: bold;
+    margin-top: 32px;
+    font-size: 24px;
+    color: bisque;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+    color: #364253;
+    /* line-height: 1.8; */
+    letter-spacing: normal;
+   }
+
+
+/* ...................  end shiping ........................ */
