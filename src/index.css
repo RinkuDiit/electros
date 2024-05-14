@@ -54,7 +54,21 @@
 
 .card_container{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
 
+}
+
+.additmemore{
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: auto;
+  text-align: none;
+  
+}
+.btnadd{
+  background-color: transparent;
+  border: none;
 }
 
 
