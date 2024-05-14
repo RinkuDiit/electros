@@ -1,7 +1,6 @@
 /* ...................shiping ........................ */
   
 .spngsecurepayment{
-    /* height: 176px; */
     /* background-color: aqua; */
     padding-top: 15px;
     }
@@ -38,13 +37,13 @@
 
   .buds3cardsboxew{
     /* background-color: aquamarine; */
-    height: 500px;
+    height: 550px;
     margin-top: 40px !important;
     text-align: center;
   }
   .buds3cardsboxew img{
     width: 100%;
-    height: 70%  !important;
+    height: 60%  !important;
   }
   .buds3cardsboxew h3{
     font-size: 17px;
@@ -71,6 +70,13 @@
     /* line-height: 1.8; */
     letter-spacing: normal;
    }
+   .buds3cardsbigp{
+  text-align: center;
+  color: #6c799d;
 
+}
+.buds3cardsboxewp{
+  margin-top: 30px;
+}
 
 /* ...................  end shiping ........................ */

@@ -44,24 +44,28 @@ function Shiping() {
       <div className='row buds3cards'>
         <div className='buds3cardsh2'></div>
         <h2>What's New at Gadgets Zone</h2>
+        <p className='buds3cardsbigp'>You can edit text on your website by double clicking on a text box on your website. Alternatively, when you select a<br/> text box a settings menu will appear. your website by double clicking on a text box on your website.</p>
         <div className='col-xl-4 col-md-12 col-sm-12 buds3cardsboxew'>         
           <img src={headphone3img1} alt='headphone3img1937'/>
                 <h3>Don't Lie to your Spouse Anymore</h3>
+                <p className='buds3cardsboxewp'>You can edit text on your website by double clicking on a text box on your website.</p>
                 <button type='button' className='btn btn-outline-warning'>Shop Now</button>         
-        </div>
+        </div>   
         <div className='col-xl-4 col-md-12 col-sm-12 buds3cardsboxew'>         
           <img src={require('../components/img/zpstock-image-938.jpg')} alt='headphone3img1938'/>
                 <h3>Uber Popular Wireless Earbuds</h3>
+                <p className='buds3cardsboxewp'>You can edit text on your website by double clicking on a text box on your website.</p>
                 <button type='button' className='btn btn-outline-warning'>Shop Now</button>         
         </div>
         <div className='col-xl-4 col-md-12 col-sm-12 buds3cardsboxew '>         
           <img src={require('../components/img/zpstock-image-939.jpg')} alt='headphone3img1939'/>
                 <h3>Limited Stocks Back on Popular Demand</h3>
+                <p className='buds3cardsboxewp'>You can edit text on your website by double clicking on a text box on your website.</p>
                 <button type='button' className='btn btn-outline-warning'>Shop Now</button>         
         </div>
         
         
-        {/* Content for buds3cards */}
+       
       </div>
       </div>
       </div>
