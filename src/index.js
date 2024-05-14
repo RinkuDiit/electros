@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Product from './components/Product'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Card from './components/Card';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Product />
+    {/* <Product /> */}
+    <Card />
   </React.StrictMode>
 );
 
