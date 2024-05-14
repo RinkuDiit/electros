@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Main from './components/img/Main';
+// import Main from '1  `./components/img/Main';
 import Shiping from './components/Shiping';
 // import Product from './components/Product'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
+import Card from './components/Card';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +18,8 @@ root.render(
     {/* <App /> */}
     <Shiping />
     {/* <Product /> */}
+    {/* <Product /> */}
+    {/* <Card /> */}
   </React.StrictMode>
 );
 
