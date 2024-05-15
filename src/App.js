@@ -4,7 +4,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Shop from './components/Shop';
 import Slider from './components/Slider';
-import Product from './components/product';
+// import Product from './components/product';
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 function App() {
   return (
@@ -70,7 +70,7 @@ function App() {
       </div>
 
 <Slider/>
-<Product/>
+{/* <Product/> */}
     </div>
   )
 }
