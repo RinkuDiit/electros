@@ -5,11 +5,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Main from '1  `./components/img/Main';
 import Shipp from './components/Shipp';
-// import Product from './components/Product'
+import Product from './components/Product'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 import Card from './components/Card';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +19,7 @@ root.render(
     {/* <App /> */}
     <Shipp />
     {/* <Product /> */}
-    {/* <Product /> */}
+    <Product />
     {/* <Card /> */}
   </React.StrictMode>
 );
