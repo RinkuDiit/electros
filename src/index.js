@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Main from '1  `./components/img/Main';
-import Shipp from './components/Shipp';
-import Product from './components/product';
+// import Shipp from './components/Shipp';
+// import Product from './components/product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 import Contact from './components/Contact';
+// import Card from './components/Card';
 
 // import Product from './components/Product'
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,6 +23,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App /> 
+    <App />
+    {/* <Product /> */}
+    {/* <App /> */}
+    {/* <Shipp /> */}
+    {/* <Product /> */}
+    {/* <Product /> */}
+    {/* <Product /> */}
+    {/* <Card /> */}
   </React.StrictMode>
 );
 
