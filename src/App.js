@@ -4,8 +4,10 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Shop from './components/Shop';
 import Slider from './components/Slider';
+import Card from './components/Card';
 // import Product from './components/product';
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
+import Shipp from './components/Shipp';
 function App() {
   return (
     <div>
@@ -25,7 +27,7 @@ function App() {
           <a className="nav-link" href="#"><Link to="/Home">Home</Link></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"><Link to="abouts">About Us</Link></a>
+          <a className="nav-link" href="#"><Link to="/abouts">About Us</Link></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#"><Link to="contact">Contact</Link></a>
@@ -50,7 +52,7 @@ function App() {
 <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
  <a href='' > <img src={require ('./icon/search (1).png')} className='search-icon'/></a>
- <a href='' ><img src={require('./icon/card.png')} className='card-data'/></a>
+ <Link to='/card'><img src={require('./icon/card.png')} className='card-data' alt='cardpnhimg'/></Link >
  <a href='' ><img src={require('./icon/heart.png')} className='heart-data'/></a>
  <a href='' ><img src={require('./icon/user.png')} className='user-data'/></a>
        </form>
@@ -61,6 +63,7 @@ function App() {
   <Route path="/abouts" element={<About/>} />
   <Route path="/contact" element={<Contact/>} />
   <Route path="/shop" element={<Shop/>} />
+  <Route path="/card" element={<Card/>} />
 
 </Routes>
 </BrowserRouter>
@@ -70,6 +73,7 @@ function App() {
       </div>
 
 <Slider/>
+<Shipp/>
 {/* <Product/> */}
     </div>
   )
