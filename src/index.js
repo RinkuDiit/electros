@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Main from '1  `./components/img/Main';
-import Shipp from './components/Shipp';
-import Product from './components/product';
+// import Shipp from './components/Shipp';
+// import Product from './components/product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
-import Card from './components/Card';
+// import Card from './components/Card';
 
 // import Product from './components/Product'
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,9 +24,9 @@ root.render(
     <App />
     {/* <Product /> */}
     {/* <App /> */}
-    <Shipp />
+    {/* <Shipp /> */}
     {/* <Product /> */}
-    <Product />
+    {/* <Product /> */}
     {/* <Product /> */}
     {/* <Card /> */}
   </React.StrictMode>
