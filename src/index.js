@@ -1,16 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Main from './components/img/Main';
+// import Main from '1  `./components/img/Main';
+import Shiping from './components/Shiping';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
+import Card from './components/Card';
+import Product from './components/product'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Main/>
-    <App />
+    {/* <App /> */}
+    <Shiping />
+    <Product />
+    {/* <Card /> */}
   </React.StrictMode>
 );
 
