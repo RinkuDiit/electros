@@ -1,8 +1,15 @@
 import React from 'react'
+import Slider from './Slider'
+import Shipp from './Shipp'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      
+<Slider/>
+<Shipp/>
+
+    </div>
   )
 }
 

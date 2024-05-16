@@ -225,6 +225,13 @@ bottom: 65px;
 
 @media screen and (max-width: 780px) {
 
+  .slider{
+    width: 100%;
+    height: 502px;
+    background-color: #dcdf07;
+    float: left;
+  
+  }
   .great-hed {
     position: absolute;
     top: 101px;
@@ -386,6 +393,14 @@ box-shadow: var(--box-shadow-01);
     color: var(--background-white);
     font-weight: 300;
     font-size: 21px;
+}
+
+.slider{
+  width: 100%;
+  height: 502px;
+  background-color: #dcdf07;
+  float: left;
+
 }
 .Simply-per {
   display: flex;
@@ -551,6 +566,7 @@ background-color: #fff;
   border: none;
 }
 
+/* *** product css *** */
 
 
 /* -----------------------footer css start----------------- */
@@ -871,4 +887,312 @@ a {
 /* -----------------------footer css end---------------------------- */
 
  
+.row1{
+  height: 130px;
+  /* border: solid 1px ; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
+}
+.P_productpage{
+  font-weight: 400 !important;
+  font-size: 19px !important;
+}
+
+.item{
+  
+  /* border: solid 1px;  */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+.itme_img{
+  width:100%;
+  height: 100%;
+}
+.bottum_line{
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+.Cardbtn{
+  width: 76%;
+  height: 58px;
+  font-size: 25px !important;
+  color: white !important;
+}
+.icone_fa{
+  margin: 15px;
+}
+
+.list-group{
+  margin: 10px;
+}
+
+.fa-star{
+  float: left;
+
+}
+/* card css */
+
+.card_container{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+
+}
+
+.additmemore{
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: auto;
+  text-align: none;
+  
+}
+.btnadd{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+.row1{
+  height: 130px;
+  /* border: solid 1px ; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.P_productpage{
+  font-weight: 400 !important;
+  font-size: 19px !important;
+}
+
+.item{
+  
+  /* border: solid 1px;  */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+.itme_img{
+  width:100%;
+  height: 100%;
+}
+.bottum_line{
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+.Cardbtn{
+  width: 76%;
+  height: 58px;
+  font-size: 25px !important;
+  color: white !important;
+}
+.icone_fa{
+  margin: 15px;
+}
+
+.list-group{
+  margin: 10px;
+}
+
+.fa-star{
+  float: left;
+
+}
+/* card css */
+
+.card_container{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+
+}
+
+.additmemore{
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: auto;
+  text-align: none;
+  
+}
+.btnadd{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+.row1{
+  height: 130px;
+  /* border: solid 1px ; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.P_productpage{
+  font-weight: 400 !important;
+  font-size: 19px !important;
+}
+
+.item{
+  
+  /* border: solid 1px;  */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+.itme_img{
+  width:100%;
+  height: 100%;
+}
+.bottum_line{
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+.Cardbtn{
+  width: 76%;
+  height: 58px;
+  font-size: 25px !important;
+  color: white !important;
+}
+.icone_fa{
+  margin: 15px;
+}
+
+.list-group{
+  margin: 10px;
+}
+
+.fa-star{
+  float: left;
+
+}
+/* card css */
+
+.card_container{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+
+}
+
+.additmemore{
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: auto;
+  text-align: none;
+  
+}
+.btnadd{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+.row1{
+  height: 130px;
+  /* border: solid 1px ; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.P_productpage{
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+
+.item{
+  
+  /* border: solid 1px;  */
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+
+.product_img{
+  width: 100%;
+  height: 100%;
+}
+.itme_img{
+  width:100%;
+  height: 100%;
+}
+.bottum_line{
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+.Cardbtn{
+  width: 76%;
+  height: 58px;
+  font-size: 25px !important;
+  color: white !important;
+}
+.icone_fa{
+  margin: 15px;
+}
+
+.list-group{
+  margin: 10px;
+}
+
+.fa-star{
+  float: left;
+
+}
+/* card css */
+
+.card_container{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+
+}
+
+.additmemore{
+  width: 150px;
+  height: 50px;
+  background-color: aqua;
+  margin: auto;
+  text-align: none;
+  
+}
+.btnadd{
+  background-color: transparent;
+  border: none;
+}
+
+
+.page_contact{
+  padding:10px;
+  background-color: #eb984e;
+}
+.ulofcon{
+  list-style-type: none;
+ 
+}
+.ulofcon li{
+  margin:20px;
+}
+.page_contact p{
+  margin: 20px;
+}
