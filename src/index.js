@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Product from './components/Product';
+  
+  import Rahul1 from '../src/components/Rahul1';
 // import Main from '1  `./components/img/Main';
 // import Shipp from './components/Shipp';
 // import Product from './components/product';
@@ -26,6 +29,10 @@ root.render(
     <App />
     {/* <Product /> */}
     {/* <App /> */}
+    {/* <Product />
+     */}
+
+     <Rahul1 />
     {/* <Shipp /> */}
     {/* <Product /> */}
     {/* <Product /> */}

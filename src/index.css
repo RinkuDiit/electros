@@ -938,6 +938,57 @@ a {
   float: left;
 
 }
+
+
+
+.rr{
+
+ background-color: black;
+ float: left;
+ 
+      
+}
+
+
+.rm{
+  height: 592px;
+  /* background-color: rgb(57, 183, 11); */
+  float: left;
+  text-align: center!important;
+ }
+   .rm h1{
+    margin: 245px 0px 0px 39px;
+    font-size: 24px;
+    color: #364253;
+}
+   
+
+.rm p{
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+
+
+}
+.buttan{
+  background-color: gold;
+  margin: 30px 0px 0px 0px;
+  border: navy;
+  height: 50px;
+  width: 130px;
+  border-radius: 7px;
+   font-size: 20px;
+ 
+
+}
+.buttan:hover{
+  background-color: rgb(199, 194, 194);
+  background-color: whitesmoke;
+}
+
+
+ 
+ 
+
 /* card css */
 
 .card_container{
