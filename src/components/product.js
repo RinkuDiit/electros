@@ -46,13 +46,14 @@ function Product() {
           <div className='container'>
              <div className='row'>
              <div className="col-xl-12">
-          <ul class="list-group">
-            <li class="list-group"><h4>Rating</h4></li>
-            <li class="list-group"><h3><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"> </i></h3></li>
-            <li class="list-group">0.0/5 (No Rating)</li>
-            <li class="list-group"><h4>Reviews</h4></li>
-            <li class="list-group">There aren't any reviews to display.</li>
+          <ul className="list-group">
+            <li className="list-group"><h4>Rating</h4></li>
+            <li className="list-group"><h3><i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"></i> <i className="fa fa-star" aria-hidden="true"> </i></h3></li>
+            <li className="list-group">0.0/5 (No Rating)</li>
+            <li className="list-group"><h4>Reviews</h4></li>
+            <li className="list-group">There aren't any reviews to display.</li>
           </ul>
+        
           </div>
              </div>
           </div>
