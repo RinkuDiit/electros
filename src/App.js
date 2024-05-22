@@ -12,10 +12,11 @@ function App() {
   return (
     <div>
       
-      <div className='header'>
+     
         
         {/* --------------navbar start----------------- */}
 <BrowserRouter>
+<div className='header'>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">MY SHOP</a>
@@ -24,7 +25,7 @@ function App() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
        
         <li className="nav-item">
-          <a className="nav-link" href="#"><Link to="/Home">Home</Link></a>
+          <a className="nav-link" href="#"><Link to="/">Home</Link></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#"><Link to="/abouts">About Us</Link></a>
@@ -57,6 +58,7 @@ function App() {
  <a href='' ><img src={require('./icon/user.png')} className='user-data'/></a>
        </form>
 
+</div>
 
 <Routes>
   <Route path="/" element={<Home/>} />
@@ -66,15 +68,7 @@ function App() {
   <Route path="/card" element={<Card/>} />
 
 </Routes>
-</BrowserRouter>
 
-        {/* ----------------navbar end--------------------- */}
-
-      </div>
-
-<Slider/>
-<Shipp/>
-{/* <Product/> */}
 <div class="pg-footer">
     <footer class="footer">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
@@ -205,10 +199,14 @@ function App() {
     </footer>
   </div>
 
+</BrowserRouter>
 
-{/* -------------------------------footer end--------------------------- */}
 
-    </div>
+        {/* ----------------navbar end--------------------- */}
+
+      </div> 
+  
+
 
 
   )
