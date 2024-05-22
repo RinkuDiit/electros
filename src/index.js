@@ -6,12 +6,15 @@ import reportWebVitals from './reportWebVitals';
 // import Product from './components/Product';
   
 // import Main from '1  `./components/img/Main';
+import Shiping from './components/Shiping';
 // import Shipp from './components/Shipp';
 // import Product from './components/product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Api from './components/Api';
 // import 'font-awesome/css/font-awesome.min.css';
 // import 'font-awesome/css/font-awesome.min.css';
+import Card from './components/Card';
+import Product from './components/product'
 // import Card from './components/Card';
 
 // import Product from './components/Product'
@@ -24,6 +27,10 @@ import Api from './components/Api';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <App /> */}
+    <Shiping />
+    <Product />
+    {/* <Card /> */}
     <App />
     {/* <Api /> */}
    
