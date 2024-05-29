@@ -2,16 +2,17 @@ import React from 'react'
 import Slider from './Slider'
 import Shipp from './Shipp'
 import Rahul from './Rahul1'
-import Api from './Api'
+import Api from './Api';
 
 function Home() {
   return (
     <div>
       <Slider/>
       <Shipp/>
-      <Api />
+      <div style={{float:'left'}}>
+      <Api/>
+      </div>
       <Rahul />
-
     </div>
   )
 }

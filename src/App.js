@@ -3,11 +3,10 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Shop from './components/Shop';
-import Slider from './components/Slider';
 import Card from './components/Card';
 // import Product from './components/product';
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
-import Shipp from './components/Shipp';
+import Singleproduct from './components/Singleproduct';
 function App() {
   return (
     <div>
@@ -37,6 +36,7 @@ function App() {
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <Link to="/shop">Shop</Link>
           </a>
+       
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#">Action</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
@@ -66,6 +66,7 @@ function App() {
   <Route path="/contact" element={<Contact/>} />
   <Route path="/shop" element={<Shop/>} />
   <Route path="/card" element={<Card/>} />
+  <Route path="/singleProduct/:id" element={<Singleproduct/>} />
 
 </Routes>
 
